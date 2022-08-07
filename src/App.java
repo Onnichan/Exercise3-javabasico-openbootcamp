@@ -18,8 +18,7 @@ public class App {
             System.out.println("-----------------------------------");
             System.out.println("¿Quiere seguir concatenando?. Escriba Y/N");
             option = sn.next().charAt(0);
-            // for (int i = 0; i < args.length; i++) {
-            // }
+
         } while (option == 'y' || option == 'Y');
     }
 }
